@@ -1,1 +1,6 @@
+# Ignore build artifacts and dependencies
 /target
+
+# Ignore environment variable files, except for the example file
+.env.*
+!.env.example
